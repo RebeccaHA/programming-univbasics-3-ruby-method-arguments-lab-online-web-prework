@@ -4,8 +4,8 @@
 # in order to complete the rest of this course and be ready for the next course!
 
 
-def introduction(name)
-  puts "Hi, my name is #{name}."
+def introduction(name, language)
+  puts "Hi, my name is #{name}, and I hear you loved coding #{language = "ruby"}."
 end
 
 introduction("Becky")
